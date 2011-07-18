@@ -68,46 +68,9 @@ Importing a Subversion Repo?
   Click here
 
 
-When you're done:
+When you are done:
 
   Continue
-###githup 操作步骤
-Global setup:
-
- Set up git
-        git config --global user.name "liangnangu"
-        git config --global user.email 574647990@qq.com
-  Add your public key
-
-
-Next steps:
-
-         mkdir classnote
-         cd classnote
-         git init//初始化
-         touch README
-         git add README//通知git跟踪REMADME
-         git commit -m -a 'first commit'//做一个版本
-         git remote add origin git@github.com:liangnangu/classnote.git//
-         git push -u origin master
-
-
-Existing Git Repo?Y
-
-        cd existing_git_repo
-        git remote add origin git@github.com:liangnangu/classnote.git
-        git push -u origin master
-
-
-Importing a Subversion Repo?
-
-  Click here
-
-
-When you're done:
-
-  Continue
-
 
 # linux basics
 
