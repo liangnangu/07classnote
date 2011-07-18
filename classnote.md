@@ -148,4 +148,18 @@ http://www.happypeter.org/posts/10
 
 http://happypeter.github.com/LGCB/
 
-http://billie66.github.com/TLCL/book/
+http://billie66.github.com/TLCL/book/i
+#vim
+
+进入 可视行模式快捷键shift + v
+退出  再次按大写v
+剪切d  粘贴 p（小写在光标下一行粘贴，大写在光标上一行粘贴）
+
+# 终端
+
+shift + ctrl + t  打开一个新标签
+ctrl + pgup ctrl+ pgdn 标签之间切换
+ctrl + alt + t 打开一个终端
+ctrl + d   关闭一个终端 关闭一个标签
+ctrl + alt + d 最小化最大化终端之间切换
+
