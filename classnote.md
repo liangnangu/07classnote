@@ -21,20 +21,21 @@
 
     :bd # delete a buffer
 ## ~/ .vimrc
+vim的配置文件
 
 #gcc
 
-gcc -E 编译生成.i结尾的中间文件
+		gcc -E 编译生成.i结尾的中间文件
 
-gcc -S 编译生成.s结尾的汇编文件
+		gcc -S 编译生成.s结尾的汇编文件
 
-gcc -c 编译生成.o结尾的机器码文件
+		gcc -c 编译生成.o结尾的机器码文件
 
-gcc -o 指定生成文件的名字
+		gcc -o 指定生成文件的名字
 
-gcc -l 指定包含文件存放的目录
+		gcc -l 指定包含文件存放的目录
 
-gcc -Wall　打开所有警告
+		gcc -Wall　打开所有警告
 
 
 # peter video
