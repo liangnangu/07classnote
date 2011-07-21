@@ -20,7 +20,13 @@
     :bp # go to previous buffer
 
     :bd # delete a buffer
+
+##  插入模式快捷键
+
+ctrl + n 可以自动补齐，查找匹配字符；
+
 ## ~/ .vimrc
+
 vim的配置文件
 
 #gcc
@@ -68,7 +74,7 @@ Next steps:
          touch README
          git add README//通知git跟踪REMADME
          git commit -m -a 'first commit'//做一个版本
-         git remote add origin git@github.com:liangnangu/classnote.git//
+         git remote add origin git@github.com:liangnangu/classnote.git//'这个地方要注意第一次上传必须要有这一行，以后push可以没有'
          git push -u origin master
 
 
@@ -87,6 +93,8 @@ Importing a Subversion Repo?
 When you are done:
 
   Continue
+
+git rm 文件名 通知git不在跟踪某文件 用于删除网页上某个无用的文件
 
 # linux basics
 
@@ -160,6 +168,18 @@ http://happypeter.github.com/LGCB/
 
 http://billie66.github.com/TLCL/book/i
 
+# reading
+
+http://norvig.com/21-days.html
+
+## some of my favorite sites
+
+http://www.linfo.org/
+
+http://www.wikipedia.org/
+
+http://news.ycombinator.com/news
+
 
 
 # 终端
@@ -174,4 +194,12 @@ ctrl + alt + t 打开一个终端
 ctrl + d   关闭一个终端 关闭一个标签
 
 ctrl + alt + d 最小化最大化终端之间切换
+
+ctrl + r 根据关键子 查找最近输入的命令
+
+alias 重定向 格式 aaa = 'sudo apt-get install'
+
+shell 配置文件名字 .bashrc   位于当前目录下
+
+source .bashrc  通知shell 重读配置文件
 
