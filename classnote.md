@@ -173,6 +173,7 @@ bash is a kind of shell.
 ## shell prompt
 
     peter@cow:~/tg-note$
+
     user@machinename:currentWorkingDirectory(folder)$
 
 # software installation
@@ -181,50 +182,50 @@ bash is a kind of shell.
 
 ## where we are
 
-   locate 文件名     在系统上定位某个文件
+        locate 文件名     在系统上定位某个文件
 
-   sudo updatedb     更新数据库
+       sudo updatedb     更新数据库
 
-   find 文件名       查找一个文件
+       find 文件名       查找一个文件
 
-   | 表示管道符  表示前面的输出作为后面的输入
+       | 表示管道符  表示前面的输出作为后面的输入
 
-   grep 字符串      查找匹配的字符串
+       grep 字符串      查找匹配的字符串
 
-   find 文件名|grep 字符串   在查找出来的文件中匹配字符串并输出
+       find 文件名|grep 字符串   在查找出来的文件中匹配字符串并输出
 
-   ps 列出系统上当前的进程
+       ps 列出系统上当前的进程
 
-   ps aux 列出系统上所有的进程
+       ps aux 列出系统上所有的进程
 
-   kill ID号 关闭对应的进程
+       kill ID号 关闭对应的进程
 
-   kill -9 ID号 强行关闭死掉的进程
+       kill -9 ID号 强行关闭死掉的进程
 
-   ls|grep tig  在列出的目录下查找匹配的文件
+       ls|grep tig  在列出的目录下查找匹配的文件
 
 
 # tar 
 
-http://www.happypeter.org/posts/10
+    http://www.happypeter.org/posts/10
 
 # ref
 
-http://happypeter.github.com/LGCB/
+    http://happypeter.github.com/LGCB/
 
-http://billie66.github.com/TLCL/book/i
+    http://billie66.github.com/TLCL/book/i
 
 # reading
 
-http://norvig.com/21-days.html
+    http://norvig.com/21-days.html
 
 ## some of my favorite sites
 
-http://www.linfo.org/
+    http://www.linfo.org/
 
-http://www.wikipedia.org/
+    http://www.wikipedia.org/
 
-http://news.ycombinator.com/news
+    http://news.ycombinator.com/news
 
 
 
