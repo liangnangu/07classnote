@@ -23,11 +23,32 @@
 
 ##  插入模式快捷键
 
-ctrl + n 可以自动补齐，查找匹配字符；
+    ctrl + n 可以自动补齐，查找匹配字符；
+
+    ctrl + t 自动缩进
+
+    ctrl + d 缩进返回
 
 ## ~/ .vimrc
 
 vim的配置文件
+
+###
+
+vim的配置
+
+自动缩进 set autoindent
+
+显示行号 set number
+
+tabstop= 4 
+
+set shiftwidth=4  可视行缩进为四个空格
+
+map ,ss :set spell<cr>  在vim中把set spell用，ss映射。注意map是普通模式映射的快捷键
+
+imap  jj <esc>  从插入模式回到普通模式  把esc用jj映射 注意imap是插入模式快捷键映射的代号
+
 
 #gcc
 
@@ -126,6 +147,8 @@ http://dict.youdao.com/
 
 # shell ( shell is a commandline interpreter)
 
+
+
 bash is a kind of shell. 
 
 ## filesystem tree
@@ -156,6 +179,29 @@ bash is a kind of shell.
 
     sudo apt-get install tree
 
+## where we are
+
+   locate 文件名     在系统上定位某个文件
+
+   sudo updatedb     更新数据库
+
+   find 文件名       查找一个文件
+
+   | 表示管道符  表示前面的输出作为后面的输入
+
+   grep 字符串      查找匹配的字符串
+
+   find 文件名|grep 字符串   在查找出来的文件中匹配字符串并输出
+
+   ps 列出系统上当前的进程
+
+   ps aux 列出系统上所有的进程
+
+   kill ID号 关闭对应的进程
+
+   kill -9 ID号 强行关闭死掉的进程
+
+   ls|grep tig  在列出的目录下查找匹配的文件
 
 
 # tar 
